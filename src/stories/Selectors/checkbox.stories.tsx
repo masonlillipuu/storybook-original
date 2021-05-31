@@ -6,14 +6,10 @@ import React from "react";
 
 
 export default {
-  title: "Input/Default",
+  title: "Selectors/Checkbox",
   component: Form
 };
 
 export const _Form = () => (
-    <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Control type="email" placeholder="Enter email" />
-  </Form.Group>
-</Form>
+    <Form.Check aria-label="option 1" />
 );

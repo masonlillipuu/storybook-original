@@ -6,14 +6,14 @@ import React from "react";
 
 
 export default {
-  title: "Input/Default",
+  title: "Input/Text Area",
   component: Form
 };
 
 export const _Form = () => (
     <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Control type="email" placeholder="Enter email" />
+  <Form.Group controlId="exampleForm.ControlTextarea1">
+    <Form.Control as="textarea" placeholder="Text area" rows={3} />
   </Form.Group>
 </Form>
 );

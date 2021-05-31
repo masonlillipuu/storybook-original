@@ -5,12 +5,12 @@ import './style.css';
 
 
 export default {
-  title: "Tags/Default",
+  title: "Tags/Success",
   component: Badge
 };
 
 export const _Button = () => (
-    <Badge pill variant="info" >
-    Default
+    <Badge pill variant="warning">
+    Draft
   </Badge>
 );

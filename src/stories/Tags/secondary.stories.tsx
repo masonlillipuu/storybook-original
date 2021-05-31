@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Badge } from "react-bootstrap";
 import React from "react";
+import './style.css';
 
 
 export default {
@@ -9,7 +10,7 @@ export default {
 };
 
 export const _Button = () => (
-    <Badge pill variant="#success">
-    Success
+    <Badge pill variant="warning">
+    Secondary
   </Badge>
 );

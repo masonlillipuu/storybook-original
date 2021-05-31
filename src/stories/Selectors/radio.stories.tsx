@@ -1,19 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from 'react-bootstrap/Form';
+import './style.css';
 
 
 import React from "react";
 
 
 export default {
-  title: "Input/Default",
+  title: "Selectors/Radio",
   component: Form
 };
 
 export const _Form = () => (
-    <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Control type="email" placeholder="Enter email" />
-  </Form.Group>
-</Form>
+    <Form.Check type="radio" aria-label="radio 1" />
 );

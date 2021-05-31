@@ -1,0 +1,41 @@
+button.btn.btn-outline-danger {
+    border: 1px solid #FB4F39;
+    color: #000000;
+    background: #ffffff;
+}
+
+button.btn.btn-outline-danger:hover {
+    border: 1px solid #FB4F39;
+    color: #000000;
+    background: #F9F2F2;
+}
+
+
+button.btn.btn-info{
+border: 1px solid #e1e4ea;
+background: #ffffff;
+color: #000000;
+}
+
+button.btn.btn-info:hover{
+border: 1px solid #646377;
+}
+
+button.btn.btn-success {
+background: #43B749;
+color: #fff;
+}
+
+button.btn.btn-success:hover{
+background: #2ca032;
+}
+
+button.btn.btn-outline-primary{
+border: 1px solid #0052cc;
+color: #000000;
+background : #fff;
+}
+
+button.btn.btn-outline-primary:hover{
+    background : #ecf2f9;
+}

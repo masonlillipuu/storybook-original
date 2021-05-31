@@ -3,6 +3,7 @@ import { Badge } from "react-bootstrap";
 import React from "react";
 
 
+
 export default {
   title: "Badge",
   component: Badge
